@@ -385,3 +385,135 @@
   transform: translateY(-1px);
 }
 
+.certification-smartia {
+  max-width: 1150px;
+  margin: 40px auto;
+  padding: 80px 24px;
+  background: radial-gradient(circle at top, #102a43, #06111f 65%);
+  color: #ffffff;
+  border-radius: 44px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.28);
+}
+}
+
+.certification-hero {
+  max-width: 950px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.certification-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 999px;
+  color: #7dd3fc;
+  margin-bottom: 18px;
+  font-size: 0.9rem;
+}
+
+.certification-hero h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 20px;
+}
+
+.certification-hero p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+  border-radius: 40px;
+}
+
+.certification-grid {
+  max-width: 1150px;
+  margin: 0 auto 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+.cert-card {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 24px;
+  padding: 28px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}
+
+.cert-card img {
+  width: 74px;
+  height: 74px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.cert-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.cert-card p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.level {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.gold { background: #facc15; color: #111827; }
+.platinum { background: #dbeafe; color: #1e3a8a; }
+.silver { background: #e5e7eb; color: #111827; }
+
+.certification-matrix,
+.certification-levels {
+  max-width: 1150px;
+  margin: 0 auto 50px;
+}
+
+.certification-matrix h2,
+.certification-levels h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.matrix-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.matrix-grid div,
+.certification-levels p {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.matrix-grid p {
+  color: #cbd5e1;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .certification-grid,
+  .matrix-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .certification-smartia {
+    padding: 55px 18px;
+  }
+}
+.hero {
+    border-radius: 40px;
+    overflow: hidden;
+}
