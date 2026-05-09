@@ -516,3 +516,31 @@
     border-radius: 40px;
     overflow: hidden;
 }
+
+.cert-card:hover{
+   transform: translateY(-6px);
+   box-shadow: 0 20px 45px rgba(0,0,0,0.35);
+}
+.certification-smartia h1,
+.certification-smartia h2,
+.certification-smartia h3,
+.certification-smartia p,
+.certification-smartia span {
+    color: #ffffff;
+}
+.cert-card img {
+    filter: brightness(1.1);
+}
+.cert-card i,
+.cert-card svg {
+    color: #7dd3fc;
+}
+h2 {
+   color:#111;
+}
+.certification-smartia .cert-card h2 {
+   color:white;
+}
+.cert-card p {
+   color:#cbd5e1;
+}
